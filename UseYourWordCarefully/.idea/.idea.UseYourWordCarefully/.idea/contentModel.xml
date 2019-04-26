@@ -9,8 +9,12 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="FillTextMgr.cs" t="Include" />
+          <e p="NormalWord.cs" t="Include" />
+          <e p="Sentence.cs" t="Include" />
           <e p="Test.cs" t="Include" />
+          <e p="Word.cs" t="Include" />
           <e p="WordCard.cs" t="Include" />
+          <e p="WordSlot.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Examples &amp; Extras" t="Include">

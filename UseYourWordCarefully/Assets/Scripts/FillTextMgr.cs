@@ -13,14 +13,11 @@ public class FillTextMgr
 			if (_instance == null)
 			{
 				_instance = new FillTextMgr();
-			}
-			else
-			{
 				return _instance;
 			}
+			return _instance;
 		}
 	}
-
 	private static FillTextMgr _instance;
 	
 	//public
@@ -93,7 +90,6 @@ public class FillTextMgr
 	/// <param name="words"></param>
 	public void LoadString(string words)
 	{
-		"asd___asd"
 		Vector2 posVec2 = slotPositionsQueue.Dequeue();
 		string s;
 
