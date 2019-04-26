@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="085dd1b6-edfa-43b6-98a4-fcc006ad1409" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF - Drop Shadow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF - Drop Shadow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF Glow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF Glow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF Logo.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF Logo.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Soft Mask.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Soft Mask.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/01-  Single Line TextMesh Pro.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/01-  Single Line TextMesh Pro.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/03 - Line Justification.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/03 - Line Justification.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/04 - Word Wrapping.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/04 - Word Wrapping.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/12 - Link Example.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/12 - Link Example.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="805">
+              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+              <folding>
+                <marker date="1487982599000" expanded="false" signature="6:44" ph="..." />
+                <marker date="1487982599000" expanded="true" signature="71:23930" ph="{...}" />
+                <marker date="1487982599000" expanded="true" signature="153:23928" ph="{...}" />
+                <marker date="1487982599000" expanded="true" signature="650:843" ph="{...}" />
+                <marker date="1487982599000" expanded="true" signature="873:2356" ph="{...}" />
+                <marker date="1487982599000" expanded="false" signature="1366:1484" ph="Draw Characters" />
+                <marker date="1487982599000" expanded="false" signature="1550:1652" ph="Draw Words" />
+                <marker date="1487982599000" expanded="false" signature="1718:1820" ph="Draw Links" />
+                <marker date="1487982599000" expanded="false" signature="1878:1980" ph="Draw Lines" />
+                <marker date="1487982599000" expanded="false" signature="2050:2154" ph="Draw Bounds" />
+                <marker date="1487982599000" expanded="false" signature="2233:2346" ph="Draw Text Bounds" />
+                <marker date="1487982599000" expanded="true" signature="2367:2505" ph="/// Method to draw a rectangle around each character. ... " />
+                <marker date="1487982599000" expanded="true" signature="2541:5963" ph="{...}" />
+                <marker date="1487982599000" expanded="true" signature="2676:5953" ph="{...}" />
+                <marker date="1487982599000" expanded="true" signature="5974:6118" ph="/// Method to draw rectangles around each word of the text. ... " />
+                <marker date="1487982599000" expanded="true" signature="6148:11251" ph="{...}" />
+                <marker date="1487982599000" expanded="true" signature="6278:11239" ph="{...}" />
+                <marker date="1487982599000" expanded="true" signature="6878:11142" ph="{...}" />
+                <marker date="1487982599000" expanded="true" signature="7832:9162" ph="{...}" />
+                <marker date="1487982599000" expanded="true" signature="8143:8268" ph="/* Debug.Log(&quot;Start Word Region at [&quot; + currentCharInfo.character + &quot;]&quot;); ... */" />
+                <marker date="1487982599000" expanded="true" signature="8323:9140" ph="{...}" />
+                <marker date="1487982599000" expanded="true" signature="9281:10058" ph="{...}" />
+                <marker date="1487982599000" expanded="true" signature="10237:11124" ph="{...}" />
+                <marker date="1487982599000" expanded="true" signature="11262:11413" ph="/// Draw rectangle around each of the links contained in the text. ... " />
+                <marker date="1487982599000" expanded="true" signature="11443:16573" ph="{...}" />
+                <marker date="1487982599000" expanded="true" signature="11573:16563" ph="{...}" />
+                <marker date="1487982599000" expanded="true" signature="12185:16466" ph="{...}" />
+                <marker date="1487982599000" expanded="true" signature="13150:14483" ph="{...}" />
+                <marker date="1487982599000" expanded="true" signature="13461:13586" ph="/* Debug.Log(&quot;Start Word Region at [&quot; + currentCharInfo.character + &quot;]&quot;); ... */" />
+                <marker date="1487982599000" expanded="true" signature="13644:14461" ph="{...}" />
+                <marker date="1487982599000" expanded="true" signature="14605:15382" ph="{...}" />
+                <marker date="1487982599000" expanded="true" signature="15561:16448" ph="{...}" />
+                <marker date="1487982599000" expanded="true" signature="16584:16719" ph="/// Draw Rectangles around each lines of the text. ... " />
+                <marker date="1487982599000" expanded="true" signature="16749:21505" ph="{...}" />
+                <marker date="1487982599000" expanded="true" signature="16879:21495" ph="{...}" />
+                <marker date="1487982599000" expanded="true" signature="17455:17584" ph="/* if (!ShowLinesOnlyVisibleCharacters) ... */" />
+                <marker date="1487982599000" expanded="true" signature="19917:21481" ph="/* } ... */" />
+                <marker date="1487982599000" expanded="true" signature="21515:21616" ph="/// Draw Rectangle around the bounds of the text object. ... " />
+                <marker date="1487982599000" expanded="true" signature="21642:22093" ph="{...}" />
+                <marker date="1487982599000" expanded="true" signature="22125:22505" ph="{...}" />
+                <marker date="1487982599000" expanded="true" signature="22598:22993" ph="{...}" />
+                <marker date="1487982599000" expanded="true" signature="23110:23313" ph="{...}" />
+                <marker date="1487982599000" expanded="true" signature="23436:23914" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Test.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <folding>
+                <marker date="1556208776649" expanded="false" signature="6:78" ph="..." />
+                <marker date="1556208776649" expanded="true" signature="114:235" ph="{...}" />
+                <marker date="1556208776649" expanded="true" signature="164:171" ph="{...}" />
+                <marker date="1556208776649" expanded="true" signature="226:233" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+              <folding>
+                <marker date="1487982612000" expanded="false" signature="6:136" ph="..." />
+                <marker date="1487982612000" expanded="true" signature="296:24614" ph="{...}" />
+                <marker date="1487982612000" expanded="true" signature="435:24612" ph="{...}" />
+                <marker date="1487982612000" expanded="true" signature="1163:2016" ph="{...}" />
+                <marker date="1487982612000" expanded="true" signature="2042:2213" ph="{...}" />
+                <marker date="1487982612000" expanded="true" signature="2239:2415" ph="{...}" />
+                <marker date="1487982612000" expanded="true" signature="2458:2684" ph="{...}" />
+                <marker date="1487982612000" expanded="true" signature="2506:2674" ph="{...}" />
+                <marker date="1487982612000" expanded="true" signature="2712:13246" ph="{...}" />
+                <marker date="1487982612000" expanded="true" signature="2756:12932" ph="{...}" />
+                <marker date="1487982612000" expanded="false" signature="2885:7376" ph="Handle Character Selection" />
+                <marker date="1487982612000" expanded="true" signature="3173:3311" ph="{...}" />
+                <marker date="1487982612000" expanded="true" signature="3450:7349" ph="{...}" />
+                <marker date="1487982612000" expanded="true" signature="4263:4464" ph="/* Need to translate all 4 vertices of the character to aligned with middle of character / baseline. ... */" />
+                <marker date="1487982612000" expanded="true" signature="6899:7117" ph="/* Swap the current character's vertex attributes with those of the last element in the vertex attribute arrays. ... */" />
+                <marker date="1487982612000" expanded="false" signature="7395:10852" ph="Word Selection Handling" />
+                <marker date="1487982612000" expanded="true" signature="7826:9272" ph="{...}" />
+                <marker date="1487982612000" expanded="true" signature="8077:9089" ph="{...}" />
+                <marker date="1487982612000" expanded="true" signature="9459:10825" ph="{...}" />
+                <marker date="1487982612000" expanded="true" signature="9754:10683" ph="{...}" />
+                <marker date="1487982612000" expanded="false" signature="10871:12917" ph="Example of Link Handling" />
+                <marker date="1487982612000" expanded="true" signature="11242:11394" ph="{...}" />
+                <marker date="1487982612000" expanded="true" signature="11509:12890" ph="{...}" />
+                <marker date="1487982612000" expanded="true" signature="12130:12872" ph="{...}" />
+                <marker date="1487982612000" expanded="true" signature="12949:13223" ph="{...}" />
+                <marker date="1487982612000" expanded="true" signature="13071:13209" ph="{...}" />
+                <marker date="1487982612000" expanded="true" signature="13311:13413" ph="{...}" />
+                <marker date="1487982612000" expanded="true" signature="13477:13579" ph="{...}" />
+                <marker date="1487982612000" expanded="true" signature="13644:19726" ph="{...}" />
+                <marker date="1487982612000" expanded="true" signature="13667:13857" ph="/* Debug.Log(&quot;Click at POS: &quot; + eventData.position + &quot;  World POS: &quot; + eventData.worldPosition); ... */" />
+                <marker date="1487982612000" expanded="false" signature="13870:14985" ph="Character Selection Handling" />
+                <marker date="1487982612000" expanded="true" signature="13919:14962" ph="/* int charIndex = TMP_TextUtilities.FindIntersectingCharacter(m_TextMeshPro, Input.mousePosition, m_Camera, true ... */" />
+                <marker date="1487982612000" expanded="false" signature="15000:17563" ph="Word Selection Handling" />
+                <marker date="1487982612000" expanded="true" signature="15140:17540" ph="/* int wordIndex = TMP_TextUtilities.FindIntersectingWord(m_TextMeshPro, Input.mousePosition, m_Camera); ... */" />
+                <marker date="1487982612000" expanded="false" signature="17578:19716" ph="Link Selection Handling" />
+                <marker date="1487982612000" expanded="true" signature="17622:19693" ph="/* Check if Mouse intersects any words and if so assign a random color to that word. ... */" />
+                <marker date="1487982612000" expanded="true" signature="19788:19850" ph="{...}" />
+                <marker date="1487982612000" expanded="true" signature="19906:24606" ph="{...}" />
+                <marker date="1487982612000" expanded="true" signature="20372:20457" ph="/* Restore Vertices ... */" />
+                <marker date="1487982612000" expanded="true" signature="21094:21190" ph="/* Restore Vertex Colors ... */" />
+                <marker date="1487982612000" expanded="true" signature="21806:21841" ph="/* Restore UV0S ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="805">
+              <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+              <folding>
+                <marker date="1487982606000" expanded="false" signature="6:76" ph="..." />
+                <marker date="1487982606000" expanded="true" signature="103:6833" ph="{...}" />
+                <marker date="1487982606000" expanded="true" signature="201:6831" ph="{...}" />
+                <marker date="1487982606000" expanded="true" signature="473:853" ph="{...}" />
+                <marker date="1487982606000" expanded="true" signature="881:6491" ph="{...}" />
+                <marker date="1487982606000" expanded="true" signature="1058:1129" ph="{...}" />
+                <marker date="1487982606000" expanded="true" signature="1166:6481" ph="{...}" />
+                <marker date="1487982606000" expanded="true" signature="1197:2569" ph="Example of Character Selection" />
+                <marker date="1487982606000" expanded="true" signature="1509:2542" ph="{...}" />
+                <marker date="1487982606000" expanded="false" signature="2587:4800" ph="Example of Link Handling" />
+                <marker date="1487982606000" expanded="true" signature="2958:3112" ph="{...}" />
+                <marker date="1487982606000" expanded="true" signature="3227:4773" ph="{...}" />
+                <marker date="1487982606000" expanded="true" signature="3941:4755" ph="{...}" />
+                <marker date="1487982606000" expanded="true" signature="4063:4313" ph="/* m_TextPopup_RectTransform.position = worldPointInRectangle; ... */" />
+                <marker date="1487982606000" expanded="true" signature="4448:4698" ph="/* m_TextPopup_RectTransform.position = worldPointInRectangle; ... */" />
+                <marker date="1487982606000" expanded="false" signature="4819:6467" ph="Example of Word Selection" />
+                <marker date="1487982606000" expanded="true" signature="5143:6440" ph="{...}" />
+                <marker date="1487982606000" expanded="true" signature="5953:6357" ph="{...}" />
+                <marker date="1487982606000" expanded="true" signature="6556:6658" ph="{...}" />
+                <marker date="1487982606000" expanded="true" signature="6722:6824" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WordCard.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+              <folding>
+                <marker date="1556209620838" expanded="false" signature="6:78" ph="..." />
+                <marker date="1556209620838" expanded="true" signature="118:245" ph="{...}" />
+                <marker date="1556209620838" expanded="true" signature="168:175" ph="{...}" />
+                <marker date="1556209620838" expanded="true" signature="230:237" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FillTextMgr.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="97" column="17" lean-forward="true" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
+              <folding>
+                <marker date="1556213081894" expanded="false" signature="6:148" ph="..." />
+                <marker date="1556213081894" expanded="true" signature="174:1749" ph="{...}" />
+                <marker date="1556213081894" expanded="true" signature="212:340" ph="{...}" />
+                <marker date="1556213081894" expanded="true" signature="221:337" ph="{...}" />
+                <marker date="1556213081894" expanded="true" signature="248:293" ph="{...}" />
+                <marker date="1556213081894" expanded="true" signature="301:333" ph="{...}" />
+                <marker date="1556213081894" expanded="true" signature="536:601" ph="{...}" />
+                <marker date="1556213081894" expanded="true" signature="558:598" ph="{...}" />
+                <marker date="1556213081894" expanded="true" signature="650:677" ph="{...}" />
+                <marker date="1556213081894" expanded="true" signature="732:739" ph="{...}" />
+                <marker date="1556213081894" expanded="true" signature="742:818" ph="///  ... " />
+                <marker date="1556213081894" expanded="true" signature="852:1504" ph="{...}" />
+                <marker date="1556213081894" expanded="true" signature="1024:1501" ph="{...}" />
+                <marker date="1556213081894" expanded="true" signature="1085:1230" ph="{...}" />
+                <marker date="1556213081894" expanded="true" signature="1142:1199" ph="{...}" />
+                <marker date="1556213081894" expanded="true" signature="1294:1496" ph="{...}" />
+                <marker date="1556213081894" expanded="true" signature="1419:1437" ph="{...}" />
+                <marker date="1556213081894" expanded="true" signature="1446:1490" ph="{...}" />
+                <marker date="1556213081894" expanded="true" signature="1507:1623" ph="///  ... " />
+                <marker date="1556213081894" expanded="true" signature="1661:1745" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WordCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FillTextMgr.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Test.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/WordCard.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FillTextMgr.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="195" />
+    <option name="y" value="-20" />
+    <option name="width" value="1553" />
+    <option name="height" value="840" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="085dd1b6-edfa-43b6-98a4-fcc006ad1409" name="Default Changelist" comment="" />
+      <created>1556208650344</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556208650344</updated>
+      <workItem from="1556208654142" duration="89000" />
+      <workItem from="1556208813800" duration="373000" />
+      <workItem from="1556209612687" duration="3327000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3789000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12846482" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="15" visible="true" weight="0.32952183" />
+      <window_info anchor="bottom" id="Unity" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding>
+            <marker date="1487982599000" expanded="false" signature="6:44" ph="..." />
+            <marker date="1487982599000" expanded="true" signature="71:23930" ph="{...}" />
+            <marker date="1487982599000" expanded="true" signature="153:23928" ph="{...}" />
+            <marker date="1487982599000" expanded="true" signature="650:843" ph="{...}" />
+            <marker date="1487982599000" expanded="true" signature="873:2356" ph="{...}" />
+            <marker date="1487982599000" expanded="false" signature="1366:1484" ph="Draw Characters" />
+            <marker date="1487982599000" expanded="false" signature="1550:1652" ph="Draw Words" />
+            <marker date="1487982599000" expanded="false" signature="1718:1820" ph="Draw Links" />
+            <marker date="1487982599000" expanded="false" signature="1878:1980" ph="Draw Lines" />
+            <marker date="1487982599000" expanded="false" signature="2050:2154" ph="Draw Bounds" />
+            <marker date="1487982599000" expanded="false" signature="2233:2346" ph="Draw Text Bounds" />
+            <marker date="1487982599000" expanded="true" signature="2367:2505" ph="/// Method to draw a rectangle around each character. ... " />
+            <marker date="1487982599000" expanded="true" signature="2541:5963" ph="{...}" />
+            <marker date="1487982599000" expanded="true" signature="2676:5953" ph="{...}" />
+            <marker date="1487982599000" expanded="true" signature="5974:6118" ph="/// Method to draw rectangles around each word of the text. ... " />
+            <marker date="1487982599000" expanded="true" signature="6148:11251" ph="{...}" />
+            <marker date="1487982599000" expanded="true" signature="6278:11239" ph="{...}" />
+            <marker date="1487982599000" expanded="true" signature="6878:11142" ph="{...}" />
+            <marker date="1487982599000" expanded="true" signature="7832:9162" ph="{...}" />
+            <marker date="1487982599000" expanded="true" signature="8143:8268" ph="/* Debug.Log(&quot;Start Word Region at [&quot; + currentCharInfo.character + &quot;]&quot;); ... */" />
+            <marker date="1487982599000" expanded="true" signature="8323:9140" ph="{...}" />
+            <marker date="1487982599000" expanded="true" signature="9281:10058" ph="{...}" />
+            <marker date="1487982599000" expanded="true" signature="10237:11124" ph="{...}" />
+            <marker date="1487982599000" expanded="true" signature="11262:11413" ph="/// Draw rectangle around each of the links contained in the text. ... " />
+            <marker date="1487982599000" expanded="true" signature="11443:16573" ph="{...}" />
+            <marker date="1487982599000" expanded="true" signature="11573:16563" ph="{...}" />
+            <marker date="1487982599000" expanded="true" signature="12185:16466" ph="{...}" />
+            <marker date="1487982599000" expanded="true" signature="13150:14483" ph="{...}" />
+            <marker date="1487982599000" expanded="true" signature="13461:13586" ph="/* Debug.Log(&quot;Start Word Region at [&quot; + currentCharInfo.character + &quot;]&quot;); ... */" />
+            <marker date="1487982599000" expanded="true" signature="13644:14461" ph="{...}" />
+            <marker date="1487982599000" expanded="true" signature="14605:15382" ph="{...}" />
+            <marker date="1487982599000" expanded="true" signature="15561:16448" ph="{...}" />
+            <marker date="1487982599000" expanded="true" signature="16584:16719" ph="/// Draw Rectangles around each lines of the text. ... " />
+            <marker date="1487982599000" expanded="true" signature="16749:21505" ph="{...}" />
+            <marker date="1487982599000" expanded="true" signature="16879:21495" ph="{...}" />
+            <marker date="1487982599000" expanded="true" signature="17455:17584" ph="/* if (!ShowLinesOnlyVisibleCharacters) ... */" />
+            <marker date="1487982599000" expanded="true" signature="19917:21481" ph="/* } ... */" />
+            <marker date="1487982599000" expanded="true" signature="21515:21616" ph="/// Draw Rectangle around the bounds of the text object. ... " />
+            <marker date="1487982599000" expanded="true" signature="21642:22093" ph="{...}" />
+            <marker date="1487982599000" expanded="true" signature="22125:22505" ph="{...}" />
+            <marker date="1487982599000" expanded="true" signature="22598:22993" ph="{...}" />
+            <marker date="1487982599000" expanded="true" signature="23110:23313" ph="{...}" />
+            <marker date="1487982599000" expanded="true" signature="23436:23914" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Test.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <marker date="1556208776649" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556208776649" expanded="true" signature="114:235" ph="{...}" />
+            <marker date="1556208776649" expanded="true" signature="164:171" ph="{...}" />
+            <marker date="1556208776649" expanded="true" signature="226:233" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+          <folding>
+            <marker date="1487982612000" expanded="false" signature="6:136" ph="..." />
+            <marker date="1487982612000" expanded="true" signature="296:24614" ph="{...}" />
+            <marker date="1487982612000" expanded="true" signature="435:24612" ph="{...}" />
+            <marker date="1487982612000" expanded="true" signature="1163:2016" ph="{...}" />
+            <marker date="1487982612000" expanded="true" signature="2042:2213" ph="{...}" />
+            <marker date="1487982612000" expanded="true" signature="2239:2415" ph="{...}" />
+            <marker date="1487982612000" expanded="true" signature="2458:2684" ph="{...}" />
+            <marker date="1487982612000" expanded="true" signature="2506:2674" ph="{...}" />
+            <marker date="1487982612000" expanded="true" signature="2712:13246" ph="{...}" />
+            <marker date="1487982612000" expanded="true" signature="2756:12932" ph="{...}" />
+            <marker date="1487982612000" expanded="false" signature="2885:7376" ph="Handle Character Selection" />
+            <marker date="1487982612000" expanded="true" signature="3173:3311" ph="{...}" />
+            <marker date="1487982612000" expanded="true" signature="3450:7349" ph="{...}" />
+            <marker date="1487982612000" expanded="true" signature="4263:4464" ph="/* Need to translate all 4 vertices of the character to aligned with middle of character / baseline. ... */" />
+            <marker date="1487982612000" expanded="true" signature="6899:7117" ph="/* Swap the current character's vertex attributes with those of the last element in the vertex attribute arrays. ... */" />
+            <marker date="1487982612000" expanded="false" signature="7395:10852" ph="Word Selection Handling" />
+            <marker date="1487982612000" expanded="true" signature="7826:9272" ph="{...}" />
+            <marker date="1487982612000" expanded="true" signature="8077:9089" ph="{...}" />
+            <marker date="1487982612000" expanded="true" signature="9459:10825" ph="{...}" />
+            <marker date="1487982612000" expanded="true" signature="9754:10683" ph="{...}" />
+            <marker date="1487982612000" expanded="false" signature="10871:12917" ph="Example of Link Handling" />
+            <marker date="1487982612000" expanded="true" signature="11242:11394" ph="{...}" />
+            <marker date="1487982612000" expanded="true" signature="11509:12890" ph="{...}" />
+            <marker date="1487982612000" expanded="true" signature="12130:12872" ph="{...}" />
+            <marker date="1487982612000" expanded="true" signature="12949:13223" ph="{...}" />
+            <marker date="1487982612000" expanded="true" signature="13071:13209" ph="{...}" />
+            <marker date="1487982612000" expanded="true" signature="13311:13413" ph="{...}" />
+            <marker date="1487982612000" expanded="true" signature="13477:13579" ph="{...}" />
+            <marker date="1487982612000" expanded="true" signature="13644:19726" ph="{...}" />
+            <marker date="1487982612000" expanded="true" signature="13667:13857" ph="/* Debug.Log(&quot;Click at POS: &quot; + eventData.position + &quot;  World POS: &quot; + eventData.worldPosition); ... */" />
+            <marker date="1487982612000" expanded="false" signature="13870:14985" ph="Character Selection Handling" />
+            <marker date="1487982612000" expanded="true" signature="13919:14962" ph="/* int charIndex = TMP_TextUtilities.FindIntersectingCharacter(m_TextMeshPro, Input.mousePosition, m_Camera, true ... */" />
+            <marker date="1487982612000" expanded="false" signature="15000:17563" ph="Word Selection Handling" />
+            <marker date="1487982612000" expanded="true" signature="15140:17540" ph="/* int wordIndex = TMP_TextUtilities.FindIntersectingWord(m_TextMeshPro, Input.mousePosition, m_Camera); ... */" />
+            <marker date="1487982612000" expanded="false" signature="17578:19716" ph="Link Selection Handling" />
+            <marker date="1487982612000" expanded="true" signature="17622:19693" ph="/* Check if Mouse intersects any words and if so assign a random color to that word. ... */" />
+            <marker date="1487982612000" expanded="true" signature="19788:19850" ph="{...}" />
+            <marker date="1487982612000" expanded="true" signature="19906:24606" ph="{...}" />
+            <marker date="1487982612000" expanded="true" signature="20372:20457" ph="/* Restore Vertices ... */" />
+            <marker date="1487982612000" expanded="true" signature="21094:21190" ph="/* Restore Vertex Colors ... */" />
+            <marker date="1487982612000" expanded="true" signature="21806:21841" ph="/* Restore UV0S ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+          <folding>
+            <marker date="1487982606000" expanded="false" signature="6:76" ph="..." />
+            <marker date="1487982606000" expanded="true" signature="103:6833" ph="{...}" />
+            <marker date="1487982606000" expanded="true" signature="201:6831" ph="{...}" />
+            <marker date="1487982606000" expanded="true" signature="473:853" ph="{...}" />
+            <marker date="1487982606000" expanded="true" signature="881:6491" ph="{...}" />
+            <marker date="1487982606000" expanded="true" signature="1058:1129" ph="{...}" />
+            <marker date="1487982606000" expanded="true" signature="1166:6481" ph="{...}" />
+            <marker date="1487982606000" expanded="true" signature="1197:2569" ph="Example of Character Selection" />
+            <marker date="1487982606000" expanded="true" signature="1509:2542" ph="{...}" />
+            <marker date="1487982606000" expanded="false" signature="2587:4800" ph="Example of Link Handling" />
+            <marker date="1487982606000" expanded="true" signature="2958:3112" ph="{...}" />
+            <marker date="1487982606000" expanded="true" signature="3227:4773" ph="{...}" />
+            <marker date="1487982606000" expanded="true" signature="3941:4755" ph="{...}" />
+            <marker date="1487982606000" expanded="true" signature="4063:4313" ph="/* m_TextPopup_RectTransform.position = worldPointInRectangle; ... */" />
+            <marker date="1487982606000" expanded="true" signature="4448:4698" ph="/* m_TextPopup_RectTransform.position = worldPointInRectangle; ... */" />
+            <marker date="1487982606000" expanded="false" signature="4819:6467" ph="Example of Word Selection" />
+            <marker date="1487982606000" expanded="true" signature="5143:6440" ph="{...}" />
+            <marker date="1487982606000" expanded="true" signature="5953:6357" ph="{...}" />
+            <marker date="1487982606000" expanded="true" signature="6556:6658" ph="{...}" />
+            <marker date="1487982606000" expanded="true" signature="6722:6824" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WordCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <marker date="1556209620838" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556209620838" expanded="true" signature="118:245" ph="{...}" />
+            <marker date="1556209620838" expanded="true" signature="168:175" ph="{...}" />
+            <marker date="1556209620838" expanded="true" signature="230:237" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FillTextMgr.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="97" column="17" lean-forward="true" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
+          <folding>
+            <marker date="1556213081894" expanded="false" signature="6:148" ph="..." />
+            <marker date="1556213081894" expanded="true" signature="174:1749" ph="{...}" />
+            <marker date="1556213081894" expanded="true" signature="212:340" ph="{...}" />
+            <marker date="1556213081894" expanded="true" signature="221:337" ph="{...}" />
+            <marker date="1556213081894" expanded="true" signature="248:293" ph="{...}" />
+            <marker date="1556213081894" expanded="true" signature="301:333" ph="{...}" />
+            <marker date="1556213081894" expanded="true" signature="536:601" ph="{...}" />
+            <marker date="1556213081894" expanded="true" signature="558:598" ph="{...}" />
+            <marker date="1556213081894" expanded="true" signature="650:677" ph="{...}" />
+            <marker date="1556213081894" expanded="true" signature="732:739" ph="{...}" />
+            <marker date="1556213081894" expanded="true" signature="742:818" ph="///  ... " />
+            <marker date="1556213081894" expanded="true" signature="852:1504" ph="{...}" />
+            <marker date="1556213081894" expanded="true" signature="1024:1501" ph="{...}" />
+            <marker date="1556213081894" expanded="true" signature="1085:1230" ph="{...}" />
+            <marker date="1556213081894" expanded="true" signature="1142:1199" ph="{...}" />
+            <marker date="1556213081894" expanded="true" signature="1294:1496" ph="{...}" />
+            <marker date="1556213081894" expanded="true" signature="1419:1437" ph="{...}" />
+            <marker date="1556213081894" expanded="true" signature="1446:1490" ph="{...}" />
+            <marker date="1556213081894" expanded="true" signature="1507:1623" ph="///  ... " />
+            <marker date="1556213081894" expanded="true" signature="1661:1745" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
