@@ -5,95 +5,85 @@ using TMPro;
 using UnityEditor;
 using UnityEngine;
 
-public class FillTextMgr
+public class FillTextMgr : MonoBehaviour
 {
-	public static FillTextMgr Instance
-	{
-		get{
-			if (_instance == null)
-			{
-				_instance = new FillTextMgr();
-				return _instance;
-			}
-			return _instance;
-		}
-	}
-	private static FillTextMgr _instance;
+//	public static FillTextMgr Instance
+//	{
+//		get{
+//			if (_instance == null)
+//			{
+//				_instance = new FillTextMgr();
+//				return _instance;
+//			}
+//			return _instance;
+//		}
+//	}
+//	private static FillTextMgr _instance;
 	
+
 	//public
 	public TextMeshProUGUI TMP_Current;
+	public List<Sentence> Sentences = new List<Sentence>();
+	
 	
 	//private
-	private string tmp_text;
-	private Queue<Vector2> slotPositionsQueue;
-	
+	private static Sentence _activeSentence;
+	private int _activeSentenceIndex = 0;
 	private void Awake()
 	{
-		if (TMP_Current)
-		{
-			tmp_text = TMP_Current.text;
-		}
+		
 	}
 
 	// Use this for initialization
-	void Start () {
-		AnalyzeCurrentTMP();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
-	/// <summary>
-	/// analyze '___' and set the positions queue
-	/// </summary>
-	private void AnalyzeCurrentTMP()
+	void Start ()
 	{
-		//we need to find every '_'s first pos and last pos
-		bool justFindSlot = false;
-		int firstPos = 0;
-		int lastPos = 0;
-		
-		for (int i = 0; i < tmp_text.Length; i++)
+		if (Sentences.Count>0) 
 		{
-			//find the slot's position
-			if (tmp_text[i] == '_')
-			{
-				//if is really a new slot
-				if (justFindSlot)
-             	{
-             		continue;
-             	}	
-				justFindSlot = true;
-			}
-			else //means haven't find the '_', the word is another word!
-			{	
-				//if we are finding the endPoint, which means justFindSlot == true, we've found the endPoint
-				if (justFindSlot)
-				{
-					
-				}
-				else
-				{
-					justFindSlot = false;					
-				}
-
-			}
-
+			_activeSentence = Sentences[_activeSentenceIndex];
 		}
 	}
 
-	/// <summary>
-	/// load string into the slots in the current scene
-	/// </summary>
-	/// <param name="words"></param>
-	public void LoadString(string words)
+	public void UpdateTextViaCurrentSentence()
 	{
-		Vector2 posVec2 = slotPositionsQueue.Dequeue();
-		string s;
+		TMP_Current.text = _activeSentence.Content;
+	}
+	
+	// Update is called once per frame
+	void Update () 
+	{
+		UpdateTextViaCurrentSentence();
 
+		if (Input.GetKeyDown(KeyCode.F))
+		{
+			_activeSentence.FillSlot(1,"FUCK");
+		}
+		
+		if (_activeSentence.IsAllFilled)
+		{
+			//显示
+			if (Input.GetKeyDown(KeyCode.E))
+			{
+				this.SwitchToNextSentence();
+			}
+		}
+		
+	}
 
+	/// <summary>
+	/// Put string into the slots in the current scene
+	/// </summary>
+	/// <param name="word"></param>
+	public static void LoadString(string word, int value)
+	{
+		_activeSentence.FillSlot(value,word);
+	}
+
+	public void SwitchToNextSentence()
+	{
+		if (_activeSentenceIndex < Sentences.Count-1)
+		{
+			_activeSentence = Sentences[++_activeSentenceIndex];
+		}
 	}
 	
 }

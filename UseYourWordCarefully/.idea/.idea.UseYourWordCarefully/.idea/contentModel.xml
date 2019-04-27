@@ -7,7 +7,19 @@
     <e p="E:\CodingProjects\unity\Unity_GameJams\UseYourWordCarefully\DigitalMediaGameJamOne-PProject\UseYourWordCarefully" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="NGUI" t="Include">
+          <e p="Resources" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="Unlit - Transparent Colored.shader" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Resources" t="Include">
+          <e p="常用汉字.txt" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
+          <e p="Actor.cs" t="Include" />
+          <e p="ChatBobbleController.cs" t="Include" />
           <e p="FillTextMgr.cs" t="Include" />
           <e p="NormalWord.cs" t="Include" />
           <e p="Sentence.cs" t="Include" />
