@@ -1,89 +1,144 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics.SymbolStore;
+using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEditor;
 using UnityEngine;
 
 public class FillTextMgr : MonoBehaviour
 {
-//	public static FillTextMgr Instance
-//	{
-//		get{
-//			if (_instance == null)
-//			{
-//				_instance = new FillTextMgr();
-//				return _instance;
-//			}
-//			return _instance;
-//		}
-//	}
-//	private static FillTextMgr _instance;
-	
+    #region SingleTon
 
-	//public
-	public TextMeshProUGUI TMP_Current;
-	public List<Sentence> Sentences = new List<Sentence>();
-	
-	
-	//private
-	private static Sentence _activeSentence;
-	private int _activeSentenceIndex = 0;
-	private void Awake()
-	{
-		
-	}
+    public static FillTextMgr Instance
+    {
+        get { return _instance; }
+    }
 
-	// Use this for initialization
-	void Start ()
-	{
-		if (Sentences.Count>0) 
-		{
-			_activeSentence = Sentences[_activeSentenceIndex];
-		}
-	}
+    private static FillTextMgr _instance;
 
-	public void UpdateTextViaCurrentSentence()
-	{
-		TMP_Current.text = _activeSentence.Content;
-	}
-	
-	// Update is called once per frame
-	void Update () 
-	{
-		UpdateTextViaCurrentSentence();
+    private void Awake()
+    {
+        if (_instance != null && _instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            _instance = this;
+        }
+    }
 
-		if (Input.GetKeyDown(KeyCode.F))
-		{
-			_activeSentence.FillSlot(1,"FUCK");
-		}
-		
-		if (_activeSentence.IsAllFilled)
-		{
-			//显示
-			if (Input.GetKeyDown(KeyCode.E))
-			{
-				this.SwitchToNextSentence();
-			}
-		}
-		
-	}
+    #endregion
 
-	/// <summary>
-	/// Put string into the slots in the current scene
-	/// </summary>
-	/// <param name="word"></param>
-	public static void LoadString(string word, int value)
-	{
-		_activeSentence.FillSlot(value,word);
-	}
+    //public
+    public TextMeshProUGUI Debug_Text;
+    public TextMeshProUGUI TMP_Current;
+    public List<Sentence> Sentences = new List<Sentence>();
+    public GameObject PressEImage;
+    public bool IsSentenceFinished = false;
+    public RevealSentence RevealSentence;
+    
+    //private
+    private static Sentence _activeSentence;
+    private int _activeSentenceIndex = 0;
 
-	public void SwitchToNextSentence()
-	{
-		if (_activeSentenceIndex < Sentences.Count-1)
-		{
-			_activeSentence = Sentences[++_activeSentenceIndex];
-		}
-	}
-	
+    // Use this for initialization
+    void Start()
+    {
+        PressEImage.SetActive(false);
+        ResetSentences();
+        //_activeSentence.FillSlot(1,"逸飞");
+    }
+
+    private void ResetSentences()
+    {
+        _activeSentenceIndex = 0;
+        if (Sentences.Count > 0)
+        {
+            _activeSentence = Sentences[_activeSentenceIndex];
+        }
+    }
+
+    public void UpdateTextViaCurrentSentence()
+    {
+        TMP_Current.text = _activeSentence.Content;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        UpdateTextViaCurrentSentence();
+
+        if (_activeSentence.IsAllFilled && IsSentenceFinished)
+        {
+            //Debug.Log("Set True Active");
+            PressEImage.SetActive(true);
+            //显示
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                if (_activeSentenceIndex == Sentences.Count - 1)
+                {
+                    Debug.Log("END OF THE DIALOG");
+                    CharacterManager.Instance.SwitchToNextCharacter();
+                    return;
+                }
+                this.SwitchToNextSentence();             
+                RevealSentence.AutoReveal();
+            }
+        }
+        else
+        {
+            PressEImage.SetActive(false);
+        }
+        
+        UpdateDebugText();
+    }
+
+    private void UpdateDebugText()
+    {
+        if (Debug_Text)
+        {
+            Debug_Text.text = _activeSentence.TotalValue.ToString();
+        }
+    }
+
+    /// <summary>
+    /// Put string into the slots in the current scene
+    /// </summary>
+    /// <param name="word"></param>
+    public static void LoadString(string word, int value)
+    {
+        _activeSentence.FillSlot(value, word);
+    }
+
+    public void SwitchToNextSentence()
+    {
+        if (_activeSentenceIndex < Sentences.Count - 1)
+        {
+            _activeSentence = Sentences[++_activeSentenceIndex];
+            if (!_activeSentence.IsAllFilled)
+            {
+                CharacterManager.Instance.GenerateWordCard();
+            }
+        }
+    }
+
+    /// <summary>
+    /// 切换对话角色时，要进行对应对话语句的更换
+    /// </summary>
+    /// <param name="sentences"></param>
+    public void SetCurrentSentences(List<string> sentences)
+    {
+        Debug.Log("My Sentences Has Been Changed.");
+        this.Sentences.Clear();
+        //List<Sentence> newSentences = new List<Sentence>();
+        for (int i = 0; i < sentences.Count; i++)
+        {
+            Debug.Log("Add Sentence: " + sentences[i]);
+           this.Sentences.Add(new Sentence(sentences[i]));
+        }
+        ResetSentences();
+        // Sentences = sentences;
+    }
 }

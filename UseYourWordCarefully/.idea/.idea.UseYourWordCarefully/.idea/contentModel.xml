@@ -15,18 +15,27 @@
           </e>
         </e>
         <e p="Resources" t="Include">
+          <e p="chinese.txt" t="Include" />
           <e p="常用汉字.txt" t="Include" />
         </e>
         <e p="Scripts" t="Include">
           <e p="Actor.cs" t="Include" />
+          <e p="Character.cs" t="Include" />
+          <e p="CharacterManager.cs" t="Include" />
           <e p="ChatBobbleController.cs" t="Include" />
+          <e p="ChatBobbleEffect.cs" t="Include" />
           <e p="FillTextMgr.cs" t="Include" />
           <e p="NormalWord.cs" t="Include" />
+          <e p="RevealSentence.cs" t="Include" />
+          <e p="RevealThoughtSystem.cs" t="Include" />
           <e p="Sentence.cs" t="Include" />
           <e p="Test.cs" t="Include" />
+          <e p="UIAnimManager.cs" t="Include" />
           <e p="Word.cs" t="Include" />
           <e p="WordCard.cs" t="Include" />
+          <e p="WordCardInfo.cs" t="Include" />
           <e p="WordSlot.cs" t="Include" />
+          <e p="WrodCardGenerator.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Examples &amp; Extras" t="Include">

@@ -5,11 +5,18 @@ using UnityEngine;
 
 public class WordCard : MonoBehaviour
 {
-
+	public enum WordType
+	{
+		Dongci,
+		Mingci,
+		XingRongci
+	}
+	
 	private TextMeshProUGUI _textMeshPro;
 	public int Value = 1;
 	public string Word = "Default";
-
+	public WordType Type = WordType.Dongci;
+	
 	private void Awake()
 	{
 		_textMeshPro = this.gameObject.GetComponentInChildren<TextMeshProUGUI>();
@@ -19,15 +26,12 @@ public class WordCard : MonoBehaviour
 	{
 		_textMeshPro.text = this.Word;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
 	private void OnMouseDown()
 	{
 		this.OnSelectAndClick();
+		//this.DestroySelf();
+		WrodCardGenerator.Instance.DestroyCards();
 	}
 
 	private void OnMouseOver()
@@ -50,8 +54,17 @@ public class WordCard : MonoBehaviour
 	{
 		FillTextMgr.LoadString(Word,Value);
 	}
-	
 
+	public void Initialize(string word, int value, WordType wordType)
+	{
+		if (this)
+		{
+			this.Word = word;
+			this.Value = value;
+			this.Type = wordType;
+		}
+	}	
+	
 	public void DestroySelf()
 	{
 		Destroy(_textMeshPro.gameObject);

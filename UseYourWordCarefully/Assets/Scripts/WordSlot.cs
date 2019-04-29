@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WordSlot 
+public class WordSlot
 {
 
 	public bool IsFilled = false;

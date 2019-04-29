@@ -14,13 +14,11 @@ namespace TMPro.Examples
             m_TextComponent = gameObject.GetComponent<TMP_Text>();
         }
 
-
         void Start()
         {
             StartCoroutine(RevealCharacters(m_TextComponent));
             //StartCoroutine(RevealWords(m_TextComponent));
         }
-
 
         void OnEnable()
         {
@@ -116,6 +114,5 @@ namespace TMPro.Examples
                 yield return new WaitForSeconds(0.1f);
             }
         }
-
     }
 }
