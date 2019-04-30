@@ -23,6 +23,7 @@ public class RevealThoughtSystem : MonoBehaviour
 	//别人的秘密！！你要揭示它~~~~
 	public void RevealPower()
 	{
+		
 		CharacterManager.ActiveCharacter.DigSecret();
 	}
 	
@@ -32,7 +33,8 @@ public class RevealThoughtSystem : MonoBehaviour
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
 		if (Input.GetKeyDown(KeyCode.R))
 		{
 			RevealPower();			
