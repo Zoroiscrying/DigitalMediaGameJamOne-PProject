@@ -39,6 +39,7 @@ public class CharacterManager : MonoBehaviour
         if (_activeCIndex < Characters.Count)
         {
             //Debug.Log("Next Character!");
+            //
             _activeCharacter = Characters[_activeCIndex++];
             Debug.Log("Switch To Character: " + _activeCharacter.gameObject.name);
             _activeCharacter.Initialize();

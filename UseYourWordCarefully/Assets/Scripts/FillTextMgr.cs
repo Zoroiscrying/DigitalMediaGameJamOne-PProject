@@ -83,7 +83,7 @@ public class FillTextMgr : MonoBehaviour
                     CharacterManager.Instance.SwitchToNextCharacter();
                     return;
                 }
-                this.SwitchToNextSentence();             
+                this.SwitchToNextSentence();
                 RevealSentence.AutoReveal();
             }
         }
@@ -135,7 +135,7 @@ public class FillTextMgr : MonoBehaviour
         //List<Sentence> newSentences = new List<Sentence>();
         for (int i = 0; i < sentences.Count; i++)
         {
-            Debug.Log("Add Sentence: " + sentences[i]);
+         //   Debug.Log("Add Sentence: " + sentences[i]);
            this.Sentences.Add(new Sentence(sentences[i]));
         }
         ResetSentences();

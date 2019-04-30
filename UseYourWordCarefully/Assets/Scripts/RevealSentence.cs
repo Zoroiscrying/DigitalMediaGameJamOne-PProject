@@ -6,9 +6,13 @@ using UnityEngine;
 using UnityEngine.Experimental.Rendering;
 using Object = UnityEngine.Object;
 
-public class RevealSentence : MonoBehaviour {
+public class RevealSentence : MonoBehaviour
+{
+        private IEnumerator RevealCoroutine;
         private TMP_Text m_TextComponent;
         private bool hasTextChanged;
+        private bool _soundPlaying = false;
+        private AudioSource _audioSource;
         public int visibleCount = 0;
         public void ResetViewableCount()
         {
@@ -18,17 +22,13 @@ public class RevealSentence : MonoBehaviour {
         void Awake()
         {
             m_TextComponent = gameObject.GetComponent<TMP_Text>();
+            _audioSource = gameObject.GetComponent<AudioSource>();
         }
 
         void Start()
         {
-            StartCoroutine(RevealCharacters(m_TextComponent));
-            //StartCoroutine(RevealWords(m_TextComponent));
-        }
-
-        private void Update()
-        {
-
+            RevealCoroutine = RevealCharacters(m_TextComponent);
+            StartCoroutine(RevealCoroutine);
         }
 
         void OnEnable()
@@ -62,10 +62,9 @@ public class RevealSentence : MonoBehaviour {
         {
             visibleCount = 0;
             textComponent.ForceMeshUpdate();
-
             TMP_TextInfo textInfo = textComponent.textInfo;
-
             int totalVisibleCharacters = textInfo.characterCount; // Get # of Visible Character in text object
+            
             while (true)
             {
                 if (hasTextChanged)
@@ -76,21 +75,21 @@ public class RevealSentence : MonoBehaviour {
 
                 if (visibleCount > totalVisibleCharacters)
                 {
+                    //finished
                     yield return new WaitForSeconds(0.5f);
-                   // Debug.Log("FINISHED");
-                    ////Show Press E button
                     FillTextMgr.Instance.IsSentenceFinished = true;
-                    StopCoroutine(RevealCharacters(m_TextComponent));
-                    //visibleCount = 0;
+                    StopCoroutine(RevealCoroutine);
+                    yield break;
                 }
 
+                //not finished
                 textComponent.maxVisibleCharacters = visibleCount; // How many characters should TextMeshPro display?
                 if (textComponent.text.Length >= visibleCount)
                 {
                     visibleCount += 1;
-                    //Debug.Log(visibleCount);
                     FillTextMgr.Instance.IsSentenceFinished = false;                    
                 }
+                _audioSource.Play();
                 yield return new WaitForSeconds(0.05f);
             }
         }

@@ -157,7 +157,7 @@ public class Sentence
             //找到没有fill的
             if (list[i].IsFilled)
             {
-                Debug.Log("Nope");
+               // Debug.Log("Nope");
                 continue;
             }
 
