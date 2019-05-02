@@ -10,6 +10,8 @@ public class WordSlot
 	public int SlotValue = 1;
 	public int FinalValue = 0;
 
+	public string code = "";
+
 	public WordSlot(bool isFilled, string word, int value)
 	{
 		this.IsFilled = isFilled;

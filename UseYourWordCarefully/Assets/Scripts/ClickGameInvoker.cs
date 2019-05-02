@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameGenerator : MonoBehaviour {
+public class ClickGameInvoker : MonoBehaviour {
 
+	
+	
+	
 	// Use this for initialization
 	void Start () {
 		

@@ -57,6 +57,7 @@ public class FillTextMgr : MonoBehaviour
         if (Sentences.Count > 0)
         {
             _activeSentence = Sentences[_activeSentenceIndex];
+            
         }
     }
 
@@ -83,6 +84,7 @@ public class FillTextMgr : MonoBehaviour
                     CharacterManager.Instance.SwitchToNextCharacter();
                     return;
                 }
+                CheckEventCode();
                 this.SwitchToNextSentence();
                 RevealSentence.AutoReveal();
             }
@@ -103,6 +105,50 @@ public class FillTextMgr : MonoBehaviour
         }
     }
 
+    private void CheckEventCode()
+    {
+        foreach (var word in _activeSentence.NewWordList)
+        {
+            if (!word.code.Equals(""))
+            {
+                switch (word.code.ToLower())
+                {
+                    case "action":
+                        //action
+                            
+                        break;
+                    case "bg":
+                        //
+                        Debug.Log("ChangeEnBg");
+                        BgManager.Instance.SwitchToNextEnvironmentBg();
+                        break;
+                    case "clickgame0":
+                        //click game for starters
+                        ClickGameGenerator.Instance.GenerateClicks(1,false);
+                        break;
+                    case "clickgame1":
+                        //click game difficulty of 3
+                            
+                        break;
+                    case "clickgame2":
+                        //click game difficulty of 2
+                            
+                        break;
+                    case "clickgame3":
+                        //click game with a difficulty of 3
+                            
+                        break;
+                    case "character":
+                        //change character
+                            
+                        break;
+                    default:
+                        break;
+                }
+            }
+        }
+    }
+    
     /// <summary>
     /// Put string into the slots in the current scene
     /// </summary>

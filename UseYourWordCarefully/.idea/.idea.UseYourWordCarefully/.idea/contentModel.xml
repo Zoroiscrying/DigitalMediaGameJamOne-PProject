@@ -21,6 +21,11 @@
         <e p="Scripts" t="Include">
           <e p="Actor.cs" t="Include" />
           <e p="AudioManager.cs" t="Include" />
+          <e p="BgManager.cs" t="Include" />
+          <e p="CameraShake" t="Include">
+            <e p="CameraShake.cs" t="Include" />
+            <e p="CameraShakeManager.cs" t="Include" />
+          </e>
           <e p="Character.cs" t="Include" />
           <e p="CharacterImageCtrl.cs" t="Include" />
           <e p="CharacterManager.cs" t="Include" />
@@ -28,10 +33,18 @@
           <e p="ChatBobbleEffect.cs" t="Include" />
           <e p="ClickAndKeyBoard" t="Include">
             <e p="ClickAndKeyBoard.cs" t="Include" />
-            <e p="GameGenerator.cs" t="Include" />
+            <e p="ClickGameGenerator.cs" t="Include" />
+          </e>
+          <e p="ClickGameInvoker.cs" t="Include" />
+          <e p="DangerZone" t="Include">
+            <e p="DangerZone.cs" t="Include" />
           </e>
           <e p="FillTextMgr.cs" t="Include" />
           <e p="NormalWord.cs" t="Include" />
+          <e p="ParticleEffectGenerator.cs" t="Include" />
+          <e p="ParticleSystem" t="Include">
+            <e p="AlphaOverTime.cs" t="Include" />
+          </e>
           <e p="RevealSentence.cs" t="Include" />
           <e p="RevealThoughtSystem.cs" t="Include" />
           <e p="Sentence.cs" t="Include" />
