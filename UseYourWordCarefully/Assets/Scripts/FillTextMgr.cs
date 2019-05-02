@@ -124,19 +124,20 @@ public class FillTextMgr : MonoBehaviour
                         break;
                     case "clickgame0":
                         //click game for starters
-                        ClickGameGenerator.Instance.GenerateClicks(1,false);
+                        Debug.Log("ClickGame0");
+                        ClickGameGenerator.Instance.GenerateWithDifficulty(0,1);
                         break;
                     case "clickgame1":
-                        //click game difficulty of 3
-                            
+                        //click game difficulty of 1
+                        ClickGameGenerator.Instance.GenerateWithDifficulty(1,1);
                         break;
                     case "clickgame2":
                         //click game difficulty of 2
-                            
+                        ClickGameGenerator.Instance.GenerateWithDifficulty(2,2);                            
                         break;
                     case "clickgame3":
                         //click game with a difficulty of 3
-                            
+                        ClickGameGenerator.Instance.GenerateWithDifficulty(2,3);                              
                         break;
                     case "character":
                         //change character

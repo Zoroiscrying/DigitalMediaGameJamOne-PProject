@@ -32,12 +32,30 @@ public class ClickGameGenerator : MonoBehaviour
 	public Transform PrefabParent;
 	public GameObject ClickAndKeyPrefab;
 	public RectTransform BgRectTransform;
+	public GameObject GamePlayCanvas;
 	private List<ClickAndKeyBoard> ClickAndKeyBoardList = new List<ClickAndKeyBoard>();
 	private Vector2 _leftDownPoint = new Vector2();
 	private Vector2 _rightUpPoint = new Vector2();
 	private bool isFinishedClicking = false;
 	private bool _isBegunJustNow = false;
+	private int wavesLeft = 0;
 	
+	private int _notNullClicksInList
+	{
+		get
+		{
+			int i = 0;
+			foreach (var VARIABLE in ClickAndKeyBoardList)
+			{
+				if (VARIABLE)
+				{
+					i++;
+				}
+			}
+
+			return i;
+		}
+	}
 	// Use this for initialization
 	void Start () {
 		var position = BgRectTransform.position;
@@ -54,46 +72,61 @@ public class ClickGameGenerator : MonoBehaviour
 		
 		if (Input.GetKeyDown(KeyCode.G))
 		{
-			GenerateClicks(6,true);
+//			GamePlayCanvas.SetActive(true);
+//			GenerateClicks(12,true);
+//			Debug.Log(ClickAndKeyBoardList.Count);
+//			ClickAndKeyBoardList.Add(null);
+//			Debug.Log(ClickAndKeyBoardList.Count);	
 		}
 
-		if (ClickAndKeyBoardList.Count > 0)
+//		if (wavesLeft > 0)
+//		{
+//			GenerateClicks(Random.Range(4,6),Random.Range(0,1)==0);
+//		}
+
+		if (_notNullClicksInList > 0)
 		{
 			_isBegunJustNow = true;
 		}
 
 		if (_isBegunJustNow) 
 		{
-			if (ClickAndKeyBoardList.Count == 0)
+			if (_notNullClicksInList == 0)
 			{
 				isFinishedClicking = true;
 			}
 		}
-		
 	}
 
-	IEnumerator GenerateClickWaves(int waveNum)
+	public void GenerateWithDifficulty(int difficulty, int waves)
 	{
+		StartCoroutine(GenerateClickWaves(waves,difficulty));
+	}
+
+	IEnumerator GenerateClickWaves(int waveNum, int difficulty)
+	{
+		GamePlayCanvas.SetActive(true);
 		isFinishedClicking = false;
 		for (int i = 0; i < waveNum;)
 		{
 			//产生几波点击事件。。。
 			//如何检测这波已经完成？--Update!
-			GenerateClicks(Random.Range(4,6),Random.Range(0,1)==0);
+			GenerateClicks(Random.Range(4+difficulty,6+difficulty),Random.Range(0,1)==0);
 			yield return new WaitUntil(() => isFinishedClicking );
 			if (isFinishedClicking)
 			{
-				waveNum++;
+				i++;
+				Debug.Log(i);
 			}
 		}
-		
+		GamePlayCanvas.SetActive(false);
 	}
 
 	/// <summary>
 	/// 随机生成一系列点，根据isVertical判断整体走向是否竖直
 	/// </summary>
 	/// <param name="num"></param>
-	public void GenerateClicks(int num, bool isVertical)
+	public void GenerateClicks(int num, bool isVertical, int hintTimes = 1)
 	{
 		isFinishedClicking = false;
 		if (isVertical)
@@ -145,8 +178,11 @@ public class ClickGameGenerator : MonoBehaviour
 			{
 				foreach (var VARIABLE in ClickAndKeyBoardList)
 				{
-					VARIABLE.HeartBeatEffect();
-					yield return new WaitForSeconds(everyClickTime);
+					if (VARIABLE) 
+					{
+						VARIABLE.HeartBeatEffect();
+						yield return new WaitForSeconds(everyClickTime);						
+					}
 				}
 				times++;
 			}
